@@ -25,7 +25,7 @@ export default function page() {
       <Dog dog={dog1} />
       <Dog dog={dog2} />
       <Dog dog={dog3} />
-      <Dog dog={{Name: "Chapi", Age: "Unknown", Breed: "Mexican Street Dog", Color: "Black and Brown"}} />
+      <Dog dog={{name: "Chapi", age: "Unknown", breed: "Mexican Street Dog", color: "Black and Brown"}} />
     </main>
   );
 }
