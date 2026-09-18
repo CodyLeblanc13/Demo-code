@@ -1,3 +1,4 @@
+import Home from "../home";
 import Dog from "./dog";
 export default function page() {
   const dog1 = {
@@ -21,6 +22,7 @@ export default function page() {
   return (
     <main>
       <h1 className="text-4xl, text-red-500">Week 3 - Components and props</h1>
+      <Home/>
       <h2 className="text-3xl text-purple-500">Dogs Information</h2>
       <Dog dog={dog1} />
       <Dog dog={dog2} />
