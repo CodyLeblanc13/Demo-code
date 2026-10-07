@@ -11,6 +11,14 @@ export default function page() {
       <Link href="/week3" className="text-underline text-blue-500">
         Go to Week 3
       </Link>
+      <br></br>
+      <Link href="/week4" className="text-underline text-blue-500">
+        Go to week 4
+      </Link>
+      <br></br>
+      <Link href="/week5" className="text-underline text-blue-500">
+        Go to week 5
+      </Link>
     </main>
   );
 }
